@@ -63,6 +63,19 @@ p{
 }
 
 a{
+    display: block;
     color: var(--white);
     text-decoration: none;
+    background-color: var(--grey);
+    margin-bottom: 16px;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+a:hover {
+    background-color: var(--neon-green);
+    color: var(--grey);
+    transition: 0.6s;
 }
